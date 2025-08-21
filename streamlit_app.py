@@ -207,3 +207,14 @@ st.header("st.selectbox")
 - La aplicación imprime el color seleccionado
 
 """
+
+import streamlit as st
+
+st.header("st.selectbox")
+
+option = st.selectbox(
+    "cual es tu color favorito?",
+    ("blue", "red", "yellow")
+)
+
+st.write("tu color favorito es", option)
