@@ -192,4 +192,18 @@ st.line_chart(chart_data)  ## Finalmente, se crea un gráfico de líneas usando 
 
 
 st.header("Parte 5", divider="blue")
-st.header("st.map")
+st.header("st.selectbox")
+
+"""
+
+- st.selectbox permite la visualización de un componente de selección.
+
+### Que estamos construyendo?
+- Una sencilla aplicación que pregunta al usuario cuál es su color favorito.
+
+- Comportamiento de la aplicación:
+
+- El usuario selecciona un color
+- La aplicación imprime el color seleccionado
+
+"""
