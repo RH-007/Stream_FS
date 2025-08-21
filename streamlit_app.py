@@ -189,3 +189,7 @@ chart_data = pd.DataFrame(
 st.write(chart_data.head())
 
 st.line_chart(chart_data)  ## Finalmente, se crea un gráfico de líneas usando st.line_chart() con el DataFrame almacenado en la variable chart_data como datos de entrada
+
+
+st.header("Parte 5", divider="blue")
+st.header("st.map")
